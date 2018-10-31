@@ -1,0 +1,6 @@
+use_frameworks!
+target 'QNSwiftHelper_Tests' do
+  pod 'QNSwiftHelper', :path => '../'
+  
+  
+end
