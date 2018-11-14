@@ -1,0 +1,16 @@
+PODS:
+  - QNSwiftHelper (0.1.0)
+
+DEPENDENCIES:
+  - QNSwiftHelper (from `../`)
+
+EXTERNAL SOURCES:
+  QNSwiftHelper:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  QNSwiftHelper: 4c6c9d99fd79b4c4668394011a374965f353c14b
+
+PODFILE CHECKSUM: 4464d67350aa9474f437e4d6809beef96df54e2a
+
+COCOAPODS: 1.6.0.beta.2
