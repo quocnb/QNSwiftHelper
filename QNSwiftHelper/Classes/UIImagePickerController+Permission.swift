@@ -12,16 +12,16 @@ import AVFoundation
 public extension UIImagePickerController {
     typealias PermissionHandler = () -> Void
 
-    static func obtainPermission(for mediaType: UIImagePickerController.SourceType, success: PermissionHandler?, fail: PermissionHandler?) {
+    static func requestPermission(for mediaType: UIImagePickerController.SourceType, success: PermissionHandler?, fail: PermissionHandler?) {
         switch mediaType {
         case .camera:
-            obtainCameraPermission(success: success, fail: fail)
+            requestCameraPermission(success: success, fail: fail)
         default:
-            obtainPhotoLibraryPermission(success: success, fail: fail)
+            requestPhotoLibraryPermission(success: success, fail: fail)
         }
     }
 
-    static func obtainCameraPermission(success: PermissionHandler?, fail: PermissionHandler?) {
+    static func requestCameraPermission(success: PermissionHandler?, fail: PermissionHandler?) {
         let status = AVCaptureDevice.authorizationStatus(for: .video)
         switch status {
         case .authorized:
@@ -45,7 +45,7 @@ public extension UIImagePickerController {
         }
     }
 
-    static func obtainPhotoLibraryPermission(success: PermissionHandler?, fail: PermissionHandler?) {
+    static func requestPhotoLibraryPermission(success: PermissionHandler?, fail: PermissionHandler?) {
         switch PHPhotoLibrary.authorizationStatus() {
         case .authorized:
             DispatchQueue.main.async {

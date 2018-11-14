@@ -22,10 +22,10 @@
 		79140C76219BBEC9005A61E8 /* UIView+Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79140C74219BBEC9005A61E8 /* UIView+Frame.swift */; };
 		79140C78219BBF4B005A61E8 /* CGFloatExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79140C77219BBF4B005A61E8 /* CGFloatExtension.swift */; };
 		79140C79219BBF4B005A61E8 /* CGFloatExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79140C77219BBF4B005A61E8 /* CGFloatExtension.swift */; };
-		79140C7B219BC123005A61E8 /* UIImagePickerController+ObtainPermission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79140C7A219BC123005A61E8 /* UIImagePickerController+ObtainPermission.swift */; };
-		79140C7C219BC123005A61E8 /* UIImagePickerController+ObtainPermission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79140C7A219BC123005A61E8 /* UIImagePickerController+ObtainPermission.swift */; };
 		79140C7E219BC6A1005A61E8 /* UIViewController+ViewFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79140C7D219BC6A1005A61E8 /* UIViewController+ViewFlow.swift */; };
 		79140C7F219BC6A3005A61E8 /* UIViewController+ViewFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79140C7D219BC6A1005A61E8 /* UIViewController+ViewFlow.swift */; };
+		79140C81219BD730005A61E8 /* UIImagePickerController+Permission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79140C80219BD730005A61E8 /* UIImagePickerController+Permission.swift */; };
+		79140C82219BD730005A61E8 /* UIImagePickerController+Permission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79140C80219BD730005A61E8 /* UIImagePickerController+Permission.swift */; };
 		7980957B21897A1000FB0604 /* UIView+Autolayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7980957A21897A1000FB0604 /* UIView+Autolayout.swift */; };
 		7980957D21897C1900FB0604 /* UIView+Identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7980957C21897C1900FB0604 /* UIView+Identifier.swift */; };
 		7980958121897C6F00FB0604 /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7980958021897C6F00FB0604 /* UITableView+Extension.swift */; };
@@ -67,8 +67,8 @@
 		79140C71219BBD92005A61E8 /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UIImageExtension.swift; path = QNSwiftHelper/Classes/UIImageExtension.swift; sourceTree = "<group>"; };
 		79140C74219BBEC9005A61E8 /* UIView+Frame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIView+Frame.swift"; path = "QNSwiftHelper/Classes/UIView+Frame.swift"; sourceTree = "<group>"; };
 		79140C77219BBF4B005A61E8 /* CGFloatExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CGFloatExtension.swift; path = QNSwiftHelper/Classes/CGFloatExtension.swift; sourceTree = "<group>"; };
-		79140C7A219BC123005A61E8 /* UIImagePickerController+ObtainPermission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImagePickerController+ObtainPermission.swift"; sourceTree = "<group>"; };
 		79140C7D219BC6A1005A61E8 /* UIViewController+ViewFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIViewController+ViewFlow.swift"; path = "QNSwiftHelper/Classes/UIViewController+ViewFlow.swift"; sourceTree = "<group>"; };
+		79140C80219BD730005A61E8 /* UIImagePickerController+Permission.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImagePickerController+Permission.swift"; path = "QNSwiftHelper/Classes/UIImagePickerController+Permission.swift"; sourceTree = "<group>"; };
 		79682C5338458EB2D13C8603D369C936 /* QNSwiftHelper-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QNSwiftHelper-Info.plist"; sourceTree = "<group>"; };
 		7980957A21897A1000FB0604 /* UIView+Autolayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+Autolayout.swift"; path = "QNSwiftHelper/Classes/UIView+Autolayout.swift"; sourceTree = "<group>"; };
 		7980957C21897C1900FB0604 /* UIView+Identifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIView+Identifier.swift"; path = "QNSwiftHelper/Classes/UIView+Identifier.swift"; sourceTree = "<group>"; };
@@ -164,13 +164,13 @@
 				7980958221897CC700FB0604 /* UICollectionView+Extension.swift */,
 				79140C6E219BBCFE005A61E8 /* UIColorExtension.swift */,
 				79140C71219BBD92005A61E8 /* UIImageExtension.swift */,
-				79140C7A219BC123005A61E8 /* UIImagePickerController+ObtainPermission.swift */,
 				7980958021897C6F00FB0604 /* UITableView+Extension.swift */,
 				7980957A21897A1000FB0604 /* UIView+Autolayout.swift */,
 				79140C65219BB980005A61E8 /* UIView+Configure.swift */,
 				79140C74219BBEC9005A61E8 /* UIView+Frame.swift */,
 				7980957C21897C1900FB0604 /* UIView+Identifier.swift */,
 				79140C7D219BC6A1005A61E8 /* UIViewController+ViewFlow.swift */,
+				79140C80219BD730005A61E8 /* UIImagePickerController+Permission.swift */,
 				F736020036E6E4EB9ADB72E11339E20B /* Pod */,
 				00086E25C234E2C3AE16A064FFFD02DD /* Support Files */,
 			);
@@ -335,9 +335,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				79140C6C219BBC57005A61E8 /* StringExtension.swift in Sources */,
+				79140C81219BD730005A61E8 /* UIImagePickerController+Permission.swift in Sources */,
 				79140C69219BBA1B005A61E8 /* ArrayExtension.swift in Sources */,
 				79140C6F219BBCFE005A61E8 /* UIColorExtension.swift in Sources */,
-				79140C7B219BC123005A61E8 /* UIImagePickerController+ObtainPermission.swift in Sources */,
 				29CBBE8B4434A7070F1913FE82F36FE5 /* Pods-QNSwiftHelper_Tests-dummy.m in Sources */,
 				79140C75219BBEC9005A61E8 /* UIView+Frame.swift in Sources */,
 				79140C66219BB980005A61E8 /* UIView+Configure.swift in Sources */,
@@ -351,7 +351,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79140C7C219BC123005A61E8 /* UIImagePickerController+ObtainPermission.swift in Sources */,
 				BEE20E4CB412D3F1B843447DC4305C70 /* QNSwiftHelper-dummy.m in Sources */,
 				79140C67219BB980005A61E8 /* UIView+Configure.swift in Sources */,
 				7980958321897CC700FB0604 /* UICollectionView+Extension.swift in Sources */,
@@ -363,6 +362,7 @@
 				79140C7F219BC6A3005A61E8 /* UIViewController+ViewFlow.swift in Sources */,
 				7980957D21897C1900FB0604 /* UIView+Identifier.swift in Sources */,
 				7980958121897C6F00FB0604 /* UITableView+Extension.swift in Sources */,
+				79140C82219BD730005A61E8 /* UIImagePickerController+Permission.swift in Sources */,
 				79140C79219BBF4B005A61E8 /* CGFloatExtension.swift in Sources */,
 				79140C76219BBEC9005A61E8 /* UIView+Frame.swift in Sources */,
 			);
