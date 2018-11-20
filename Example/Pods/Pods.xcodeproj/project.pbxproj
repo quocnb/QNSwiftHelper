@@ -30,6 +30,8 @@
 		7980957D21897C1900FB0604 /* UIView+Identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7980957C21897C1900FB0604 /* UIView+Identifier.swift */; };
 		7980958121897C6F00FB0604 /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7980958021897C6F00FB0604 /* UITableView+Extension.swift */; };
 		7980958321897CC700FB0604 /* UICollectionView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7980958221897CC700FB0604 /* UICollectionView+Extension.swift */; };
+		799E74B021A3AAB700FB3928 /* WeakableClosure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799E74AF21A3AAB700FB3928 /* WeakableClosure.swift */; };
+		799E74B121A3AAB700FB3928 /* WeakableClosure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799E74AF21A3AAB700FB3928 /* WeakableClosure.swift */; };
 		8CE48B4F0CF5D16FA349A45D3503B81B /* QNSwiftHelper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 759EC483BA742350417C37C82CB4E3B0 /* QNSwiftHelper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BEE20E4CB412D3F1B843447DC4305C70 /* QNSwiftHelper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2B2D8EA4DFBE6F48A0DD0C7AA32E60 /* QNSwiftHelper-dummy.m */; };
 		CA027036CFEBC96697B7B7397A8B8769 /* Pods-QNSwiftHelper_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C01137C1322428F60321C1472C38E9E /* Pods-QNSwiftHelper_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -74,6 +76,7 @@
 		7980957C21897C1900FB0604 /* UIView+Identifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIView+Identifier.swift"; path = "QNSwiftHelper/Classes/UIView+Identifier.swift"; sourceTree = "<group>"; };
 		7980958021897C6F00FB0604 /* UITableView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UITableView+Extension.swift"; path = "QNSwiftHelper/Classes/UITableView+Extension.swift"; sourceTree = "<group>"; };
 		7980958221897CC700FB0604 /* UICollectionView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UICollectionView+Extension.swift"; path = "QNSwiftHelper/Classes/UICollectionView+Extension.swift"; sourceTree = "<group>"; };
+		799E74AF21A3AAB700FB3928 /* WeakableClosure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WeakableClosure.swift; path = QNSwiftHelper/Classes/WeakableClosure.swift; sourceTree = "<group>"; };
 		8C01137C1322428F60321C1472C38E9E /* Pods-QNSwiftHelper_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QNSwiftHelper_Tests-umbrella.h"; sourceTree = "<group>"; };
 		955E469554F1D5F6BC70BADC877F3E16 /* Pods-QNSwiftHelper_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QNSwiftHelper_Tests.modulemap"; sourceTree = "<group>"; };
 		9F31D956226C2AAB47868658A450FC27 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -171,6 +174,7 @@
 				7980957C21897C1900FB0604 /* UIView+Identifier.swift */,
 				79140C7D219BC6A1005A61E8 /* UIViewController+ViewFlow.swift */,
 				79140C80219BD730005A61E8 /* UIImagePickerController+Permission.swift */,
+				799E74AF21A3AAB700FB3928 /* WeakableClosure.swift */,
 				F736020036E6E4EB9ADB72E11339E20B /* Pod */,
 				00086E25C234E2C3AE16A064FFFD02DD /* Support Files */,
 			);
@@ -335,6 +339,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				79140C6C219BBC57005A61E8 /* StringExtension.swift in Sources */,
+				799E74B021A3AAB700FB3928 /* WeakableClosure.swift in Sources */,
 				79140C81219BD730005A61E8 /* UIImagePickerController+Permission.swift in Sources */,
 				79140C69219BBA1B005A61E8 /* ArrayExtension.swift in Sources */,
 				79140C6F219BBCFE005A61E8 /* UIColorExtension.swift in Sources */,
@@ -357,6 +362,7 @@
 				79140C73219BBD92005A61E8 /* UIImageExtension.swift in Sources */,
 				7980957B21897A1000FB0604 /* UIView+Autolayout.swift in Sources */,
 				79140C6D219BBC57005A61E8 /* StringExtension.swift in Sources */,
+				799E74B121A3AAB700FB3928 /* WeakableClosure.swift in Sources */,
 				79140C70219BBCFE005A61E8 /* UIColorExtension.swift in Sources */,
 				79140C6A219BBA1B005A61E8 /* ArrayExtension.swift in Sources */,
 				79140C7F219BC6A3005A61E8 /* UIViewController+ViewFlow.swift in Sources */,
