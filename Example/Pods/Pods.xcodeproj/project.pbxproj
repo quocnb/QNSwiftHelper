@@ -40,6 +40,8 @@
 		79C4D3BF222DFABA0031C53E /* CGFloatExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C4D3A0222DFABA0031C53E /* CGFloatExtension.swift */; };
 		79C4D3C0222DFABA0031C53E /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C4D3A1222DFABA0031C53E /* StringExtension.swift */; };
 		79C4D3C1222DFABA0031C53E /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C4D3A1222DFABA0031C53E /* StringExtension.swift */; };
+		79C4D3C3222DFC610031C53E /* MarginLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C4D3C2222DFC610031C53E /* MarginLabel.swift */; };
+		79C4D3C4222DFC610031C53E /* MarginLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C4D3C2222DFC610031C53E /* MarginLabel.swift */; };
 		8CE48B4F0CF5D16FA349A45D3503B81B /* QNSwiftHelper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 759EC483BA742350417C37C82CB4E3B0 /* QNSwiftHelper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BEE20E4CB412D3F1B843447DC4305C70 /* QNSwiftHelper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2B2D8EA4DFBE6F48A0DD0C7AA32E60 /* QNSwiftHelper-dummy.m */; };
 		CA027036CFEBC96697B7B7397A8B8769 /* Pods-QNSwiftHelper_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C01137C1322428F60321C1472C38E9E /* Pods-QNSwiftHelper_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -87,6 +89,7 @@
 		79C4D39F222DFABA0031C53E /* ArrayExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
 		79C4D3A0222DFABA0031C53E /* CGFloatExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGFloatExtension.swift; sourceTree = "<group>"; };
 		79C4D3A1222DFABA0031C53E /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		79C4D3C2222DFC610031C53E /* MarginLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarginLabel.swift; sourceTree = "<group>"; };
 		8C01137C1322428F60321C1472C38E9E /* Pods-QNSwiftHelper_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QNSwiftHelper_Tests-umbrella.h"; sourceTree = "<group>"; };
 		955E469554F1D5F6BC70BADC877F3E16 /* Pods-QNSwiftHelper_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QNSwiftHelper_Tests.modulemap"; sourceTree = "<group>"; };
 		9F31D956226C2AAB47868658A450FC27 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -178,6 +181,7 @@
 				79C4D391222DFABA0031C53E /* UIView+Frame.swift */,
 				79C4D392222DFABA0031C53E /* UIView+Identifier.swift */,
 				79C4D393222DFABA0031C53E /* UIView+Configure.swift */,
+				79C4D3C2222DFC610031C53E /* MarginLabel.swift */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
@@ -399,6 +403,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79C4D3C3222DFC610031C53E /* MarginLabel.swift in Sources */,
 				79C4D3BC222DFABA0031C53E /* ArrayExtension.swift in Sources */,
 				79C4D3B0222DFABA0031C53E /* UICollectionView+Extension.swift in Sources */,
 				79C4D3B4222DFABA0031C53E /* UIViewController+ViewFlow.swift in Sources */,
@@ -423,6 +428,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79C4D3C4222DFC610031C53E /* MarginLabel.swift in Sources */,
 				79C4D3BD222DFABA0031C53E /* ArrayExtension.swift in Sources */,
 				79C4D3B1222DFABA0031C53E /* UICollectionView+Extension.swift in Sources */,
 				79C4D3B5222DFABA0031C53E /* UIViewController+ViewFlow.swift in Sources */,
