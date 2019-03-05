@@ -7,7 +7,7 @@
 
 import UIKit
 
-extension UICollectionReusableView {
+public extension UICollectionReusableView {
     static func autoResizingView<T: UICollectionReusableView>(type: T.Type) -> T {
         let nibViews = Bundle.main.loadNibNamed(T.identifier, owner: nil, options: nil)
         return nibViews?.first as? T ?? T()
