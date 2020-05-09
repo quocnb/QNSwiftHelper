@@ -42,6 +42,8 @@ public extension UIImagePickerController {
                     }
                 }
             })
+        @unknown default:
+            fail?()
         }
     }
 
@@ -70,6 +72,8 @@ public extension UIImagePickerController {
                     break
                 }
             })
+        @unknown default:
+            fail?()
         }
     }
 }

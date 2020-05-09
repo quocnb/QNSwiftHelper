@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'QNSwiftHelper'
-  s.version          = '0.8.3'
+  s.version          = '1.0.0'
   s.summary          = 'Quick Helper for iOS project'
 
 # This description is used to generate tags and improve search results.
@@ -24,8 +24,8 @@ Pod::Spec.new do |s|
   s.author           = { 'quocnb' => 'quocnb.vnu@gmail.com' }
   s.source           = { :git => 'https://github.com/quocnb/QNSwiftHelper.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '10.0'
-  s.swift_version = '4.2'
+  s.ios.deployment_target = '12.0'
+  s.swift_version = '5.2'
 
   s.source_files = 'QNSwiftHelper/Classes/**/*'
   

@@ -6,12 +6,13 @@
 [![Platform](https://img.shields.io/cocoapods/p/QNSwiftHelper.svg?style=flat)](https://cocoapods.org/pods/QNSwiftHelper)
 
 ## Example
+This help me DRY when I do my project. I will keep update it every new Swift version.
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
-- Swift 4.2
-- iOS 10.0 and later
+- Swift 5
+- iOS 12.0 and later
 
 ## Installation
 
